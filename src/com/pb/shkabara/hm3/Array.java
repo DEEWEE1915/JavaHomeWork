@@ -38,8 +38,6 @@ public class Array {
         System.out.println("Сума всіх елементів масива: " + sum);
         System.out.println("Кількість позитивних елементів масива: " + positiveElements);
 
-        //пузырьок
-
         int done = 1;
         int save = 0;
 
