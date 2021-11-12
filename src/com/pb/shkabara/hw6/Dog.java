@@ -13,10 +13,12 @@ public class Dog  extends Animal {
         this.runningSpeed = runningSpeed;
     }
 
+    @Override
     public void makeNoise() {
         System.out.println("Гавкає");
     }
 
+    @Override
     public void eat() {
         System.out.println("Їсть по-собачому");
     }

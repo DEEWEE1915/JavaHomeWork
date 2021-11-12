@@ -12,10 +12,12 @@ public class Horse  extends Animal {
         this.horseshoeSize = horseshoeSize;
     }
 
+    @Override
     public void makeNoise() {
         System.out.println("Ірже");
     }
 
+    @Override
     public void eat() {
         System.out.println("Їсть по-конячому");
     }

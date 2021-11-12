@@ -12,10 +12,12 @@ public class Cat  extends Animal {
         this.pawsSize = pawsSize;
     }
 
+    @Override
     public void makeNoise() {
         System.out.println("Мявкає");
     }
 
+    @Override
     public void eat() {
         System.out.println("Їсть по-котячому");
     }
